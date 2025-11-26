@@ -4,10 +4,10 @@ IMPORTANTE: Git no ejecuta scripts automáticamente al hacer `git clone`. Esto e
 Para instalar los paquetes (apache2, php y mariadb) después de clonar, usa una de las siguientes opciones:
 
 1) Método recomendado (manual y seguro)
-   git clone https://github.com/Dtincre/wordpress-pack.git
-   cd wordpress-pack
-   chmod +x install.sh   # hay que otorgarle permisos de ejecución
-   ./install.sh          # te pedirá confirmación
+   git clone https://github.com/Dtincre/wordpress-pack.git ;   
+   cd wordpress-pack ;   
+   chmod +x install.sh ;   # hay que otorgarle permisos de ejecución ;   
+   ./install.sh ;   # te pedirá confirmación ;   
    # o para no interactuar:
    ./install.sh -y
 
